@@ -10,10 +10,14 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
   res.send('Hello World ');
 =======
   res.send('Hello World ');
 >>>>>>> dev
+=======
+  res.send('Hello World');
+>>>>>>> parent of 0130041 (commit dev)
 });
 
 app.listen(PORT, HOST);
